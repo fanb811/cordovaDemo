@@ -18,6 +18,11 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <!-- 图标 -->
+        <icon src="res/icon/android/icon.png" density="hdpi" />
+        <icon src="res/icon/android/icon.png" density="ldpi" />
+        <icon src="res/icon/android/icon.png" density="mdpi" />
+        <icon src="res/icon/android/icon.png" density="xhdpi" />
         <!-- 引导页-横向展示 -->
         <!--<splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
         <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
